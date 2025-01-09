@@ -14,27 +14,32 @@ Logistic Regression (LR)
 Accuracy: 97.67%
 A simple but effective model, LR works well for binary and multiclass classification problems.
 Feature selection was used to improve performance.
+
 Random Forest (RF)
 Accuracy: 91.17%
 Random Forest creates an ensemble of decision trees to classify data based on various phone features.
 Model performance improved after feature selection.
+
 XGBoost
 Accuracy: 94.17%
 XGBoost is an optimized gradient boosting algorithm that excels in handling large datasets and complex data relationships.
+
 Support Vector Machine (SVM)
 Accuracy: 97.50%
 SVM finds the best hyperplane to classify data points into different categories. It achieved near-perfect classification after hyperparameter tuning.
+
 K-Nearest Neighbors (KNN)
 Accuracy: 65.33%
 KNN is a simple model that classifies data points based on their proximity to other data points. It performs well for extreme price categories but struggles with mid-range prices.
+
 Model Evaluation
 Each model was evaluated based on the following metrics:
-
 Accuracy: Percentage of correctly classified instances.
 Precision: The ability to classify only relevant instances.
 Recall: The ability to identify all relevant instances.
 F1-Score: Harmonic mean of precision and recall.
 ROC-AUC: Area under the Receiver Operating Characteristic curve, which shows the model's ability to distinguish between classes.
+
 Usage
 To use the trained models for prediction, you can run the Jupyter notebook price_prediction.ipynb, which will walk you through the steps of loading the data, preprocessing it, training the models, and evaluating them. You can also make predictions on new data by following the example in the notebook.
 
